@@ -240,3 +240,138 @@ body {
     margin-bottom: 1rem;
     line-height: 1.5;
 }
+
+.deals {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    width: fit-content;
+    max-width: 100%;
+}
+.deals h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.deals-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+.deals-title {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+    width: 100%;
+}
+.deals-title .highlight {
+    color: #ff6600;
+}
+.deals-title .deals-black {
+    color: #222;
+}
+.deals-desc {
+    text-align: center;
+    color: #888;
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+    display: block;
+    width: 100%;
+}
+.deals-flex {
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 2.5rem;
+}
+.deals-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.deals-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.deal-card {
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    min-width: 270px;
+}
+.deal-small {
+    width: 367px;
+    height: 201px;
+    border-radius: 14px;
+}
+.deal-small .deal-text {
+    text-align: center;
+    width: 100%;
+}
+.deal-large {
+    width: 753px;
+    height: 423px;
+    border-radius: 10px;
+}
+.deal-overlay {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.15) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+.deal-text {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+    text-align: left;
+    width: 100%;
+}
+.deal-large-text {
+    font-size: 2.2rem;
+    text-align: center;
+    width: 100%;
+}
+.deal-btn {
+    color: #fff;
+    background: none;
+    border: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    transition: color 0.2s;
+}
+.deal-btn:hover {
+    color: #ff6600;
+}
+.deal-badge {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    background: #ff6600;
+    color: #fff;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.newsletter {
+    margin: 3rem 0 0 0;
+    position: relative;
+}
